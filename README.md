@@ -21,7 +21,7 @@ We created an SEO plugin because we implement best SEO practices in all of our c
 
 ###Documentation
 ---
-1. Stupid-quick Start Guide
+1. [Stupid-quick Start Guide](#stupid-quick-start-guide)
 2. [Tag Reference](/Surgeapps/Surge-E-O/wiki/Tag-Reference)
 3. Usage Examples
 4. [Config Options: Global Defaults](/Surgeapps/Surge-E-O/wiki/Configuration)
