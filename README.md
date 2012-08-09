@@ -1,64 +1,72 @@
-Quick Usage Guide
+SurgeEO SEO Add-On for ExpressionEngine 2
 ---
 
-###Global Options - Default Values:
+###What is it?
+---
+SurgeEO is an add-on that lets you add SEO meta data to your site pages, and control those in the admin area. You can edit/control:
 
-*  Default Title   	- The title tag content to use if no title tag is found
-*  Default Keywords 	- The keywords to use if no keyword content is found
-*  Default Description 	- The description content to use if no description is found
+1. Title tag
+2. Description Meta Tag
+3. Keywords Meta Tag
+4. Canonical Tag
+5. Robots (Privacy from search bots)
 
-Also note that title, keywords and description tags will fallback to the entry_id
-corresponding to the last uri segment, if it exists, before falling back to the
-defaults in the module control panel.
+###What problems does SurgeEO solve?
+---
+We created an SEO plugin because we implement best SEO practices in all of our client sites. There are few high-quality add-ons, and we saw some of them doing too much, or lacking in important areas. Here were our goals:
 
-###Global Options - Additional Options
-* Prepend to all title tags 	 - Any content to add before all site title tags created via the module. You may need to add spaces after the text as necessary
-* Append to all title tags		 - Any content to add after all site title tags created via the module. You may need to add spaces before the text as necessary
-* Visbility to robots (privacy) - Set the ROBOTS meta tag as appropriate
+1. Easily administrate SEO data in the admin area (duh)
+2. Use best practices - Don't make using a global header hard
+3. Administrate SEO data to aggregate pages - Those with no specific entry assigned **(This one is exciting!)**
+
+###Documentation
+---
+1. Stupid-quick Start Guide
+2. [Tag Reference](/Surgeapps/Surge-E-O/wiki/Tag-Reference)
+3. Usage Examples
+4. [Config Options: Global Defaults](/Surgeapps/Surge-E-O/wiki/Configuration)
+5. [Config Options: Additional](/Surgeapps/Surge-E-O/wiki/Configuration)
+
+###Addendum
+---
+1. How to use global headers
+2. How we guess the entry_id
 
 
-###Tags
-Sample tags. Note that any parameters surrounded by square brackets "[ ]" are optional. Square brackets seen below should not be used within templates.
 
-####Title
 
-    {exp:seo:title [entry_id="{entry_id}"] [prepend="override prepend"] [append="override append"] [fallback="override fallback title text"]}
 
-Sample Output:
+Stupid-Quick Start Guide
+---
 
-    An Article - MySite.com
+**Global Header Include:**
 
-Note that use of prepend / append parameters will override the global append / prepend options.  If defined, fallback text will be used in the case that a title is not defined in the seo tab of the entry.  Otherwise,
-text will fallback to the title of the entry first, then to the default title text defined in seo's settings.
+```
+<head>
+	<title>{title}</title>
+	<meta name="keywords" content="{keywords}" />
+	<meta name="description" content="{description}" />
+</head>
+```
 
-####Keywords
+**Some template:**
 
-    {exp:seo:keywords [entry_id="{entry_id}"]}
-
-Sample Output:
-
-    these,are,my,keywords
-
-####Descriptions
-
-    {exp:seo:description [entry_id="{entry_id}"]}
-
-Sample Output:
-
-    This is my short description that will show up in the SERPS
-
-####Canonical Links
-
-    {exp:seo:cononical url="{title_permlink='some/template'}"}
-
-Sample Output:
-
-    <link rel="canonical" href="http://mysite.com/template/a_specific_article" />
-
-####NoIndex, NoFollow
-
-    {exp:seo:privacy}
-
-Sample Output:
-
-    <meta name="robots" content="index,follow" />
+```
+{embed="site/_header" 
+	title="{exp:seo:title url_title='{segment_3}'}" 
+	keywords="{exp:seo:title url_title='{segment_3}'}" 
+	description="{exp:seo:title url_title='{segment_3}'}"
+}
+<body>
+	<div class="container">
+		<div class="row">
+			{exp:channel:entries channel="some_channel"}
+			<article>
+				<h2>{title}</h2>
+				{content}
+			</article>
+			{/exp:channel:entrie}
+		</div>
+	</div>
+</body>
+```
