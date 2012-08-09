@@ -41,7 +41,7 @@ Stupid-Quick Start Guide
 
 **Global Header Include:**
 
-```
+```html
 <head>
 	<title>{title}</title>
 	<meta name="keywords" content="{keywords}" />
@@ -51,7 +51,7 @@ Stupid-Quick Start Guide
 
 **Some template:**
 
-```
+```html
 {embed="site/_header" 
 	title="{exp:seo:title url_title='{segment_3}'}" 
 	keywords="{exp:seo:title url_title='{segment_3}'}" 
