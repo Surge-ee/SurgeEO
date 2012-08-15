@@ -45,9 +45,9 @@ Stupid-Quick Start Guide
 
 ```html
 <head>
-	<title>{title}</title>
-	<meta name="keywords" content="{keywords}" />
-	<meta name="description" content="{description}" />
+	<title>{embed:title}</title>
+	<meta name="keywords" content="{embed:keywords}" />
+	<meta name="description" content="{embed:description}" />
 </head>
 ```
 
