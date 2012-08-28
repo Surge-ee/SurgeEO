@@ -56,8 +56,8 @@ Stupid-Quick Start Guide
 ```html
 {embed="site/_header" 
 	title="{exp:seo:title url_title='{segment_3}'}" 
-	keywords="{exp:seo:title url_title='{segment_3}'}" 
-	description="{exp:seo:title url_title='{segment_3}'}"
+	keywords="{exp:seo:keywords url_title='{segment_3}'}" 
+	description="{exp:seo:description url_title='{segment_3}'}"
 }
 <body>
 	<div class="container">
