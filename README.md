@@ -21,7 +21,7 @@ We created an SEO plugin because we implement best SEO practices in all of our c
 
 ###Documentation
 ---
-1. [Stupid-quick Start Guide](/Surgeapps/Surge-E-O#stupid-quick-start-guide) - Even a caveman can do it...
+1. [Stupid-quick Startup Guide](/Surgeapps/Surge-E-O#stupid-quick-startup-guide) - Even a caveman can do it...
 2. [Tag Reference](/Surgeapps/Surge-E-O/wiki/Tag-Reference) - All available tags
 3. [SEO data for Entries](/Surgeapps/Surge-E-O/wiki/SEO-for-Entries) - Adding SEO data to your entries
 4. [SEO data for Pages](/Surgeapps/Surge-E-O/wiki/SEO-for-Pages) - Adding SEO data to pages with no entry!
@@ -38,7 +38,7 @@ We created an SEO plugin because we implement best SEO practices in all of our c
 
 
 
-Stupid-Quick Start Guide
+Stupid-Quick Startup Guide
 ---
 
 **Global Header Include:**
