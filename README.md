@@ -28,6 +28,7 @@ We created an SEO plugin because we implement best SEO practices in all of our c
 3. [Usage Examples](/Surge-ee/Surge-E-O/wiki/Usage-Examples) - Usage examples to get you underway quickly
 4. [Config Options: Global Defaults](/Surge-ee/Surge-E-O/wiki/Configuration) - Basic Options
 5. [Config Options: Additional](/Surge-ee/Surge-E-O/wiki/Configuration) - Additional Options
+6. [FAQ](/Surge-ee/Surge-E-O/wiki/FAQ)
 
 ###Addendum
 ---
