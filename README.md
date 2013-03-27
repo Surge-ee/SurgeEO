@@ -21,14 +21,14 @@ We created an SEO plugin because we implement best SEO practices in all of our c
 
 ###Documentation
 ---
-1. [Stupid-quick Startup Guide](/Surge-ee/Surge-E-O#stupid-quick-startup-guide) - Even a caveman can do it...
-2. [Tag Reference](/Surge-ee/Surge-E-O/wiki/Tag-Reference) - All available tags
-3. [SEO data for Entries](/Surge-ee/Surge-E-O/wiki/SEO-for-Entries) - Adding SEO data to your entries
-4. [SEO data for Pages](/Surge-ee/Surge-E-O/wiki/SEO-for-Pages) - Adding SEO data to pages with no entry!
-3. [Usage Examples](/Surge-ee/Surge-E-O/wiki/Usage-Examples) - Usage examples to get you underway quickly
-4. [Config Options: Global Defaults](/Surge-ee/Surge-E-O/wiki/Configuration) - Basic Options
-5. [Config Options: Additional](/Surge-ee/Surge-E-O/wiki/Configuration) - Additional Options
-6. [FAQ](/Surge-ee/Surge-E-O/wiki/FAQ)
+1. [Stupid-quick Startup Guide](/Surge-ee/SurgeEO#stupid-quick-startup-guide) - Even a caveman can do it...
+2. [Tag Reference](/Surge-ee/SurgeEO/wiki/Tag-Reference) - All available tags
+3. [SEO data for Entries](/Surge-ee/SurgeEO/wiki/SEO-for-Entries) - Adding SEO data to your entries
+4. [SEO data for Pages](/Surge-ee/SurgeEO/wiki/SEO-for-Pages) - Adding SEO data to pages with no entry!
+3. [Usage Examples](/Surge-ee/SurgeEO/wiki/Usage-Examples) - Usage examples to get you underway quickly
+4. [Config Options: Global Defaults](/Surge-ee/SurgeEO/wiki/Configuration) - Basic Options
+5. [Config Options: Additional](/Surge-ee/SurgeEO/wiki/Configuration) - Additional Options
+6. [FAQ](/Surge-ee/SurgeEO/wiki/FAQ)
 
 ###Addendum
 ---
@@ -56,9 +56,9 @@ Stupid-Quick Startup Guide
 
 ```html
 {embed="site/_header" 
-	title="{exp:seo:title url_title='{segment_3}'}" 
-	keywords="{exp:seo:keywords url_title='{segment_3}'}" 
-	description="{exp:seo:description url_title='{segment_3}'}"
+	title="{exp:surgeeo:title url_title='{segment_3}'}" 
+	keywords="{exp:surgeeo:keywords url_title='{segment_3}'}" 
+	description="{exp:surgeeo:description url_title='{segment_3}'}"
 }
 <body>
 	<div class="container">
