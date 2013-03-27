@@ -21,14 +21,14 @@ We created an SEO plugin because we implement best SEO practices in all of our c
 
 ###Documentation
 ---
-1. [Stupid-quick Startup Guide](/Surge-ee/SurgeEO#stupid-quick-startup-guide) - Even a caveman can do it...
-2. [Tag Reference](/Surge-ee/SurgeEO/wiki/Tag-Reference) - All available tags
-3. [SEO data for Entries](/Surge-ee/SurgeEO/wiki/SEO-for-Entries) - Adding SEO data to your entries
-4. [SEO data for Pages](/Surge-ee/SurgeEO/wiki/SEO-for-Pages) - Adding SEO data to pages with no entry!
-3. [Usage Examples](/Surge-ee/SurgeEO/wiki/Usage-Examples) - Usage examples to get you underway quickly
-4. [Config Options: Global Defaults](/Surge-ee/SurgeEO/wiki/Configuration) - Basic Options
-5. [Config Options: Additional](/Surge-ee/SurgeEO/wiki/Configuration) - Additional Options
-6. [FAQ](/Surge-ee/SurgeEO/wiki/FAQ)
+1. [Stupid-quick Startup Guide](#stupid-quick-startup-guide) - Even a caveman can do it...
+2. [Tag Reference](../../wiki/Tag-Reference) - All available tags
+3. [SEO data for Entries](../../wiki/SEO-for-Entries) - Adding SEO data to your entries
+4. [SEO data for Pages](../../wiki/SEO-for-Pages) - Adding SEO data to pages with no entry!
+3. [Usage Examples](../../wiki/Usage-Examples) - Usage examples to get you underway quickly
+4. [Config Options: Global Defaults](../../wiki/Configuration) - Basic Options
+5. [Config Options: Additional](../../wiki/Configuration) - Additional Options
+6. [FAQ](../../wiki/FAQ)
 
 ###Addendum
 ---
