@@ -25,10 +25,11 @@ We created an SEO plugin because we implement best SEO practices in all of our c
 2. [Tag Reference](../../wiki/Tag-Reference) - All available tags
 3. [SEO data for Entries](../../wiki/SEO-for-Entries) - Adding SEO data to your entries
 4. [SEO data for Pages](../../wiki/SEO-for-Pages) - Adding SEO data to pages with no entry!
-3. [Usage Examples](../../wiki/Usage-Examples) - Usage examples to get you underway quickly
-4. [Config Options: Global Defaults](../../wiki/Configuration) - Basic Options
-5. [Config Options: Additional](../../wiki/Configuration) - Additional Options
-6. [FAQ](../../wiki/FAQ)
+5. [Usage Examples](../../wiki/Usage-Examples) - Usage examples to get you underway quickly
+6. [CSV Import](../../wiki/Using-the-CSV-Importer) - Bulk import your data!
+7. [Config Options: Global Defaults](../../wiki/Configuration) - Basic Options
+8. [Config Options: Additional](../../wiki/Configuration) - Additional Options
+9. [FAQ](../../wiki/FAQ)
 
 ###Addendum
 ---
